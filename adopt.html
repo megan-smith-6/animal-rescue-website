@@ -32,8 +32,106 @@
     <div class="banner embed embed-16by9">
       <img class="embed-item" src="images/adopt-banner.jpg" alt="">
       <div class="banner-content pin-c w-1 max-length gutter text-center">
-        <h2 class="push-1-2">You could put a smile on a dogs face.</h2>
+        <h2 class="push-1-2">Adopt a dog today!</h2>
+        <h3>Fill out the application below and bring home
+          your new companion.</h3>
         <a class="btn btn-ghost btn-banner bold" href="#">Adopt a Dog</a>
       </div>
     </div>
   </div>
+
+  <section>
+    <div class="grid">
+      <div class="unit">
+        <h2>Before you Fill out the Application</h2>
+        <p>To be considered for one of the animals in the FDR program, you must complete the following adoption application. Understand that the needs of the animal come first - and as such we will be checking references and may include a potential home visit as part of the adoption process. Our primary goal is to match up animals with living situations that are best suited for their longterm care. We appreciate your interest in our organization.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pad-t-2 gutter">
+    <h1>Sign up</h1>
+
+    <form method="POST" action="https://formspree.io/smit1711@algonquinlive.com">
+      <fieldset>
+        <legend class="personal giga push italic">Personal details</legend>
+        <div class="grid">
+          <div class="first-name-div push unit xs-1 s-1 m-1 l-1-2">
+            <label for="name">First Name</label>
+            <input id="name" name="first-name" required>
+          </div>
+          <div class="last-name-div push unit xs-1 s-1 m-1 l-1-2">
+            <label for="name">Last Name</label>
+            <input id="name" name="last-name" required>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <label for="address">Street Address</label>
+            <input id="address" name="address"></input>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <label for="address">City</label>
+            <input id="address" name="address"></input>
+          </div>
+          <div class="unit pad-t xs-1 s-1 m-1-2 l-1-2">
+            <label for="subject">Province</label>
+            <select id="subject" name="_subject">
+              <option>Ontario</option>
+              <option>British Columbia</option>
+              <option>Alberta</option>
+              <option>Saskatchewan</option>
+              <option>Manitoba</option>
+              <option>Quebec</option>
+              <option>New Brunswick</option>
+              <option>Nova Scotia</option>
+              <option>Prince Edward Island</option>
+              <option>Newfoundland and Labrador</option>
+              <option>Yukon</option>
+              <option>Northwest Territories</option>
+              <option>Nunavut</option>
+            </select>
+          </div>
+          <div class="pad-t push unit xs-1 s-1 m-1 l-1-2">
+            <label for="email">Postal Code</label>
+            <input id="email" type="email" name="email">
+          </div>
+          <div class="email-div push unit xs-1 s-1 m-1 l-1-2">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email">
+          </div>
+          <div class="push unit xs-1 s-1 m-1 l-1-2">
+            <label for="age">Phone #</label>
+            <input id="age" type="number" name="phone-number">
+          </div>
+          <div class="push unit xs-1 s-1 m-1 l-1-2">
+            <label for="age">Alternate Phone #</label>
+            <input id="age" type="number" name="alt-phone-number">
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <label for="subject">Best time to call</label>
+            <select id="subject" name="_subject">
+              <option>Morning</option>
+              <option>Midday</option>
+              <option>Evening</option>
+            </select>
+          </div>
+          <div class="unit push xs-1 s-1 m-1 l-1">
+            <div class="push unit xs-1 s-1 m-1 l-1">
+              <label for="subject">Which Dog do you want to Adopt?</label>
+              <select id="subject" name="_subject">
+                <option>Lana</option>
+                <option>Duke</option>
+                <option>Teddy</option>
+                <option>Cher</option>
+                <option>Jowa</option>
+                <option>Sam</option>
+              </select>
+            </div>
+          </div>
+          <div class="pad-t center-content-horizontal">
+            <button class="btn" type="submit">Submit</button>
+          </div>
+          <input type="hidden" name="_subject" value="Adoption Submission">
+        </div>
+      </fieldset>
+    </form>
+  </section>
