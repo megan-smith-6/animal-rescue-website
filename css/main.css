@@ -31,6 +31,10 @@ html {
   background-color: #3E318D;
 }
 
+#current {
+  background-color: #3E318D;
+}
+
 .banner {
   min-height: 16em;
 }
