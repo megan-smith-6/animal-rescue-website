@@ -1,0 +1,67 @@
+html {
+  font-family: 'Questrial', sans-serif;
+}
+
+.masthead {
+  background-color: #6A5EB9;
+}
+
+.logo {
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn {
+  color: #fff;
+  background-color: #6A5EB9;
+  border: none;
+}
+
+
+.btn:hover,
+.btn:focus {
+  background-color: #3E318D;
+}
+
+.banner {
+  min-height: 16em;
+}
+
+
+.btn-banner {
+  background-color: #3E318D;
+  color: #fff;
+  border: none;
+}
+
+.btn-banner:hover,
+.btn-banner:focus {
+  background-color: #6A5EB9;
+  border-color: #3E318D;
+  color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
+  .banner,
+  .card {
+    min-height: 0;
+  }
+
+}
