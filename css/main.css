@@ -39,14 +39,7 @@ html {
   background-size: cover;
   min-height: 16em;
   overflow: hidden;
-}
-
-.banner-adopt {
-  background: linear-gradient(to right, rgba(30, 9, 88, .2),rgba(30, 9, 88, .1)), url("../images/adopt-banner.jpg");
-  height: 40vh;
-  background-size: cover;
-  min-height: 16em;
-  overflow: hidden;
+  background-position: center;
 }
 
 .btn:hover,
@@ -68,7 +61,7 @@ html {
 }
 
 .bg-text-colour:hover {
-  background: linear-gradient(to bottom, rgba(62, 49, 141, .3),rgba(62, 49, 141, .1));
+  background: linear-gradient(to bottom, rgba(62, 49, 141, 1),rgba(62, 49, 141, .8));
 }
 
 
@@ -105,13 +98,9 @@ textarea {
     text-align: right;
   }
   .banner-index {
-    background-attachment: fixed;
     height: 60vh;
   }
-  .banner-adopt {
-    background-attachment: fixed;
-    height: 60vh;
-  }
+
   .banner,
   .card {
     min-height: 0;
