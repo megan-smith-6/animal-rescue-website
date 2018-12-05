@@ -80,7 +80,7 @@ html {
 }
 
 .adoptable-dogs {
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 1),rgba(62, 49, 141, .3));
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1),rgba(218, 213, 255, 1));
 }
 
 .dog-card img {
@@ -96,6 +96,12 @@ input:not([type="radio"]),
 textarea {
     color: #6A5EB9;
   }
+
+hr {
+  margin: 0 auto;
+  max-width: 45%;
+  border: 1px solid #9e9e9e;
+}
 
 @media only screen and (min-width: 38em) {
 
