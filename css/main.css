@@ -14,6 +14,10 @@ html {
   text-align: center;
 }
 
+.banner-content {
+  margin-left: 1em;
+}
+
 .nav a {
   color: #fff;
   text-decoration: none;
@@ -25,6 +29,17 @@ html {
   border: none;
 }
 
+.h2-break {
+  max-width: 10em;
+}
+
+.banner {
+  background: linear-gradient(to right, rgba(30, 9, 88, .2),rgba(30, 9, 88, .1)), url("../images/homepage-banner.jpg");
+  height: 40vh;
+  background-size: cover;
+  min-height: 16em;
+  overflow: hidden;
+}
 
 .btn:hover,
 .btn:focus {
@@ -35,10 +50,14 @@ html {
   background-color: #3E318D;
 }
 
-.banner {
-  min-height: 16em;
-}
+.bg-text-colour {
+  color: #fff;
+  background: linear-gradient(to bottom, rgba(62, 49, 141, .6),rgba(62, 49, 141, .6));
+  bottom: 0;
+  right: 0;
+  left: 0;
 
+}
 
 .btn-banner {
   background-color: #3E318D;
@@ -53,6 +72,16 @@ html {
   color: #fff;
 }
 
+.adoptable-dogs {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1),rgba(62, 49, 141, .3));
+}
+
+input:not([type="checkbox"]),
+input:not([type="radio"]),
+textarea {
+    color: #6A5EB9;
+  }
+
 @media only screen and (min-width: 38em) {
 
   .logo {
@@ -62,10 +91,17 @@ html {
   .nav {
     text-align: right;
   }
-
+  .banner {
+    background-attachment: fixed;
+    height: 60vh;
+  }
   .banner,
   .card {
     min-height: 0;
+  }
+
+  .banner-content {
+    margin-left: 3em;
   }
 
 }
