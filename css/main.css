@@ -58,13 +58,13 @@ html {
   bottom: 0;
   right: 0;
   left: 0;
-  transition: all 1200ms linear;
+  transition: all 900ms ease-in-out;
 }
 
 .bg-text-colour:hover {
   background: linear-gradient(to bottom, rgba(62, 49, 141, 1),rgba(62, 49, 141, .8));
+  transition: all 900ms ease-in-out;
 }
-
 
 .btn-banner {
   background-color: #3E318D;
@@ -84,11 +84,16 @@ html {
 }
 
 .dog-card img {
-  filter: brightness(90%);;
+  filter: brightness(90%);
 }
 
 .dog-card img:hover {
   filter: brightness(100%);
+  transition: all 900ms ease-in-out;
+}
+
+.doggo-hover:hover {
+  transition: all 900ms ease-in-out;
 }
 
 input:not([type="checkbox"]),
@@ -114,6 +119,18 @@ small {
 .btn-line {
   border-bottom: #3E318D;
   color: #000;
+}
+
+footer a:hover {
+
+}
+
+@media only screen and (min-width: 23em) {
+
+  .nav {
+    border-bottom: .5em;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
