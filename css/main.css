@@ -33,8 +33,16 @@ html {
   max-width: 10em;
 }
 
-.banner {
+.banner-index {
   background: linear-gradient(to right, rgba(30, 9, 88, .2),rgba(30, 9, 88, .1)), url("../images/homepage-banner.jpg");
+  height: 40vh;
+  background-size: cover;
+  min-height: 16em;
+  overflow: hidden;
+}
+
+.banner-adopt {
+  background: linear-gradient(to right, rgba(30, 9, 88, .2),rgba(30, 9, 88, .1)), url("../images/adopt-banner.jpg");
   height: 40vh;
   background-size: cover;
   min-height: 16em;
@@ -56,8 +64,13 @@ html {
   bottom: 0;
   right: 0;
   left: 0;
-
+  transition: all 1200ms linear;
 }
+
+.bg-text-colour:hover {
+  background: linear-gradient(to bottom, rgba(62, 49, 141, .3),rgba(62, 49, 141, .1));
+}
+
 
 .btn-banner {
   background-color: #3E318D;
@@ -91,7 +104,11 @@ textarea {
   .nav {
     text-align: right;
   }
-  .banner {
+  .banner-index {
+    background-attachment: fixed;
+    height: 60vh;
+  }
+  .banner-adopt {
     background-attachment: fixed;
     height: 60vh;
   }
