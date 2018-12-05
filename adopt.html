@@ -5,7 +5,7 @@
   <title>Freedom Dog Rescue</title>
   <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
-  <link href="css/grids.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
@@ -37,91 +37,94 @@
     </div>
   </section>
 
-    <hr></hr>
+  <div class="pad-b">
+      <hr>
+  </div>
 
-  <section class="adoptable-dogs pad-t-2 gutter">
-    <h1>Sign up</h1>
-
-    <form class="gutter" method="POST" action="https://formspree.io/smit1711@algonquinlive.com">
-      <fieldset>
-        <legend class="personal mega push italic">Your Information</legend>
-        <div class="grid">
-          <div class="first-name-div push unit xs-1 s-1 m-1 l-1-2 pad-r">
-            <label for="name">First Name</label>
-            <input id="name" name="first-name" value="Meg Ryan" required>
-          </div>
-          <div class="last-name-div push unit xs-1 s-1 m-1 l-1-2 pad-l">
-            <label for="name">Last Name</label>
-            <input id="name" name="last-name" required>
-          </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-2">
-            <label for="address">Street Address</label>
-            <input id="address" name="address"></input>
-          </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-2">
-            <label for="address">City</label>
-            <input id="address" name="address"></input>
-          </div>
-          <div class="unit pad-t xs-1 s-1 m-1-2 l-1-2">
-            <label for="subject">Province</label>
-            <select id="subject" name="_subject">
-              <option>Ontario</option>
-              <option>British Columbia</option>
-              <option>Alberta</option>
-              <option>Saskatchewan</option>
-              <option>Manitoba</option>
-              <option>Quebec</option>
-              <option>New Brunswick</option>
-              <option>Nova Scotia</option>
-              <option>Prince Edward Island</option>
-              <option>Newfoundland and Labrador</option>
-              <option>Yukon</option>
-              <option>Northwest Territories</option>
-              <option>Nunavut</option>
-            </select>
-          </div>
-          <div class="pad-t push unit xs-1 s-1 m-1 l-1-2">
-            <label for="email">Postal Code</label>
-            <input id="email" type="email" name="email">
-          </div>
-          <div class="email-div push unit xs-1 s-1 m-1 l-1-2">
-            <label for="email">Email</label>
-            <input id="email" type="email" name="email">
-          </div>
-          <div class="push unit xs-1 s-1 m-1 l-1-2">
-            <label for="age">Phone #</label>
-            <input id="age" type="number" name="phone-number">
-          </div>
-          <div class="push unit xs-1 s-1 m-1 l-1-2">
-            <label for="age">Alternate Phone #</label>
-            <input id="age" type="number" name="alt-phone-number">
-          </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-2">
-            <label for="subject">Best time to call</label>
-            <select id="subject" name="_subject">
-              <option>Morning</option>
-              <option>Midday</option>
-              <option>Evening</option>
-            </select>
-          </div>
-          <div class="unit push xs-1 s-1 m-1 l-1">
-            <div class="push unit xs-1 s-1 m-1 l-1">
-              <label for="subject">Which Dog do you want to Adopt?</label>
+  <section class="adoptable-dogs pad-t-2">
+    <div class="max-length gutter">
+      <h1 class="max-length">Sign up</h1>
+      <form method="POST" action="https://formspree.io/smit1711@algonquinlive.com">
+        <fieldset class="push-0">
+          <legend class="personal mega push italic">Your Information</legend>
+          <div class="grid">
+            <div class="first-name-div push unit xs-1 s-1 m-1 l-1-2 pad-r">
+              <label for="name">First Name</label>
+              <input id="name" name="first-name" value="Meg Ryan" required>
+            </div>
+            <div class="last-name-div push unit xs-1 s-1 m-1 l-1-2 pad-l">
+              <label for="name">Last Name</label>
+              <input id="name" name="last-name" required>
+            </div>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2">
+              <label for="address">Street Address</label>
+              <input id="address" name="address"></input>
+            </div>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2">
+              <label for="address">City</label>
+              <input id="address" name="address"></input>
+            </div>
+            <div class="unit pad-t xs-1 s-1 m-1-2 l-1-2">
+              <label for="subject">Province</label>
               <select id="subject" name="_subject">
-                <option>Lana</option>
-                <option>Duke</option>
-                <option>Teddy</option>
-                <option>Cher</option>
-                <option>Jowa</option>
-                <option>Sam</option>
+                <option>Ontario</option>
+                <option>British Columbia</option>
+                <option>Alberta</option>
+                <option>Saskatchewan</option>
+                <option>Manitoba</option>
+                <option>Quebec</option>
+                <option>New Brunswick</option>
+                <option>Nova Scotia</option>
+                <option>Prince Edward Island</option>
+                <option>Newfoundland and Labrador</option>
+                <option>Yukon</option>
+                <option>Northwest Territories</option>
+                <option>Nunavut</option>
               </select>
             </div>
+            <div class="pad-t push unit xs-1 s-1 m-1 l-1-2">
+              <label for="email">Postal Code</label>
+              <input id="email" type="email" name="email">
+            </div>
+            <div class="email-div push unit xs-1 s-1 m-1 l-1-2">
+              <label for="email">Email</label>
+              <input id="email" type="email" name="email">
+            </div>
+            <div class="push unit xs-1 s-1 m-1 l-1-2">
+              <label for="age">Phone #</label>
+              <input id="age" type="number" name="phone-number">
+            </div>
+            <div class="push unit xs-1 s-1 m-1 l-1-2">
+              <label for="age">Alternate Phone #</label>
+              <input id="age" type="number" name="alt-phone-number">
+            </div>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2">
+              <label for="subject">Best time to call</label>
+              <select id="subject" name="_subject">
+                <option>Morning</option>
+                <option>Midday</option>
+                <option>Evening</option>
+              </select>
+            </div>
+            <div class="unit push xs-1 s-1 m-1 l-1">
+              <div class="push unit xs-1 s-1 m-1 l-1">
+                <label for="subject">Which Dog do you want to Adopt?</label>
+                <select id="subject" name="_subject">
+                  <option>Lana</option>
+                  <option>Duke</option>
+                  <option>Teddy</option>
+                  <option>Cher</option>
+                  <option>Jowa</option>
+                  <option>Sam</option>
+                </select>
+              </div>
+            </div>
+            <div class="pad-t-2 pad-b center-content-horizontal">
+              <button class="btn" type="submit">Submit</button>
+            </div>
+            <input type="hidden" name="_subject" value="Adoption Submission">
           </div>
-          <div class="pad-t-2 pad-b center-content-horizontal">
-            <button class="btn" type="submit">Submit</button>
-          </div>
-          <input type="hidden" name="_subject" value="Adoption Submission">
-        </div>
-      </fieldset>
-    </form>
+        </fieldset>
+      </form>
+    </div>
   </section>
