@@ -19,17 +19,19 @@
       </a>
     </div>
     <div class="nav unit xs-1 s-1 m-3-4 l-3-4">
-      <ul class="list-group-inline mega push-0">
-        <li class="gutter-1-8"><a class="btn" href="index.html"><span>Home</span></a></li>
-        <li class="gutter-1-8"><a class="btn" href="rescues.html"><span>Rescues</span></a></li>
-        <li class="gutter-1-8"><a id="current" class="btn" href="adopt.html"><span>Adopt</span></a></li>
-        <li class="gutter-1-8"><a class="btn" href="#"><span>Contact</span></a></li>
-        <li class="gutter-1-8"><a class="btn" href="#"><span>About Us</span></a></li>
-      </ul>
+      <nav>
+        <ul class="list-group-inline mega push-0">
+          <li class="gutter-1-8"><a class="btn" href="index.html"><span>Home</span></a></li>
+          <li class="gutter-1-8"><a class="btn" href="rescues.html"><span>Rescues</span></a></li>
+          <li class="gutter-1-8"><a id="current" class="btn" href="adopt.html"><span>Adopt</span></a></li>
+          <li class="gutter-1-8"><a class="btn" href="#"><span>Contact</span></a></li>
+          <li class="gutter-1-8"><a class="btn" href="#"><span>About Us</span></a></li>
+        </ul>
+      </nav>
     </div>
   </div>
 
-  <section class="pad-t-2 pad-b-2">
+  <section class="pad-t-2 pad-b">
     <div class="max-length grid pad-t-2 pad-b-2 gutter">
       <div class="unit">
         <h1>Before you Fill out the Application</h1>
@@ -51,7 +53,7 @@
           <div class="grid">
             <div class="first-name-div push unit xs-1 s-1 m-1 l-1-2 pad-r">
               <label for="name">First Name</label>
-              <input id="name" name="first-name" value="Meg Ryan" required>
+              <input id="name" name="first-name" required>
             </div>
             <div class="last-name-div push unit xs-1 s-1 m-1 l-1-2 pad-l">
               <label for="name">Last Name</label>
@@ -59,15 +61,15 @@
             </div>
             <div class="unit xs-1 s-1 m-1-2 l-1-2">
               <label for="address">Street Address</label>
-              <input id="address" name="address"></input>
+              <input id="address" name="address" required></input>
             </div>
             <div class="unit xs-1 s-1 m-1-2 l-1-2">
               <label for="address">City</label>
-              <input id="address" name="address"></input>
+              <input id="address" name="address" required></input>
             </div>
             <div class="unit pad-t xs-1 s-1 m-1-2 l-1-2">
               <label for="subject">Province</label>
-              <select id="subject" name="_subject">
+              <select id="subject" name="_subject" required>
                 <option>Ontario</option>
                 <option>British Columbia</option>
                 <option>Alberta</option>
@@ -120,7 +122,7 @@
                 </select>
               </div>
             </div>
-            <div class="pad-t-2 pad-b center-content-horizontal">
+            <div class="unit xs-1 s-1-2 m-1 l-1 pad-t-2 pad-b gutter-1-4 center-content-horizontal">
               <button class="btn btn-banner bold" type="submit">Submit</button>
             </div>
             <input type="hidden" name="_subject" value="Adoption Submission">

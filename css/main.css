@@ -96,12 +96,6 @@ html {
   transition: all 900ms ease-in-out;
 }
 
-input:not([type="checkbox"]),
-input:not([type="radio"]),
-textarea {
-  color: #6a5eb9;
-}
-
 hr {
   margin: 0 auto;
   max-width: 45%;
