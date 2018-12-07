@@ -1,9 +1,9 @@
 html {
-  font-family: 'Questrial', sans-serif;
+  font-family: Questrial, sans-serif;
 }
 
 .masthead {
-  background-color: #6A5EB9;
+  background-color: #6a5eb9;
 }
 
 .logo {
@@ -25,7 +25,7 @@ html {
 
 .btn {
   color: #fff;
-  background-color: #6A5EB9;
+  background-color: #6a5eb9;
   border: none;
 }
 
@@ -34,7 +34,7 @@ html {
 }
 
 .banner-index {
-  background: linear-gradient(to right, rgba(30, 9, 88, .2),rgba(30, 9, 88, 0)), url("../images/homepage-banner.jpg");
+  background: linear-gradient(to right, rgba(30, 9, 88, .2), rgba(30, 9, 88, 0)), url("../images/homepage-banner.jpg");
   height: 40vh;
   background-size: cover;
   min-height: 16em;
@@ -49,12 +49,12 @@ html {
 }
 
 #current {
-  background-color: #3E318D;
+  background-color: #3a318d;
 }
 
 .bg-text-colour {
   color: #fff;
-  background: linear-gradient(to bottom, rgba(62, 49, 141, .6),rgba(62, 49, 141, .6));
+  background: linear-gradient(to bottom, rgba(62, 49, 141, .6), rgba(62, 49, 141, .6));
   bottom: 0;
   right: 0;
   left: 0;
@@ -62,25 +62,25 @@ html {
 }
 
 .bg-text-colour:hover {
-  background: linear-gradient(to bottom, rgba(62, 49, 141, 1),rgba(62, 49, 141, .8));
+  background: linear-gradient(to bottom, rgba(62, 49, 141, 1), rgba(62, 49, 141, .8));
   transition: all 900ms ease-in-out;
 }
 
 .btn-banner {
-  background-color: #3E318D;
+  background-color: #3e318d;
   color: #fff;
   border: none;
 }
 
 .btn-banner:hover,
 .btn-banner:focus {
-  background-color: #6A5EB9;
-  border-color: #3E318D;
+  background-color: #6a5eb9;
+  border-color: #3e318d;
   color: #fff;
 }
 
 .adoptable-dogs {
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 1),rgba(218, 213, 255, 1));
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(218, 213, 255, 1));
 }
 
 .dog-card img {
@@ -99,8 +99,8 @@ html {
 input:not([type="checkbox"]),
 input:not([type="radio"]),
 textarea {
-    color: #6A5EB9;
-  }
+  color: #6a5eb9;
+}
 
 hr {
   margin: 0 auto;
@@ -109,7 +109,7 @@ hr {
 }
 
 footer {
-  background-color: #6A5EB9;
+  background-color: #6a5eb9;
 }
 
 small {
@@ -117,7 +117,7 @@ small {
 }
 
 .btn-line {
-  border-bottom: #3E318D;
+  border-bottom: #3e318d;
   color: #000;
 }
 
@@ -142,6 +142,7 @@ footer a:hover {
   .nav {
     text-align: right;
   }
+
   .banner-index {
     height: 60vh;
   }
@@ -153,18 +154,6 @@ footer a:hover {
 
   .banner-content {
     margin-left: 3em;
-  }
-
-@media only screen and (min-width: 121em) {
-
-  .banner-content {
-    font-size: 1.5em;
-    padding-left: 6em;
-  }
-
-  .h2-break {
-    font-size: 1.5em;
-    padding-bottom: 1em;
   }
 
 }
