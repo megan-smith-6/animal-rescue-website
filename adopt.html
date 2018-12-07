@@ -31,7 +31,7 @@
     </div>
   </div>
 
-  <section class="pad-t-2 pad-b">
+  <section class="dog-text pad-t-2 pad-b">
     <div class="max-length grid pad-t-2 pad-b-2 gutter">
       <div class="unit">
         <h1>Before you Fill out the Application</h1>
@@ -45,21 +45,33 @@
   </div>
 
   <section class="adoptable-dogs pad-t-2">
-    <div class="max-length gutter">
-      <h1 class="max-length">Sign up</h1>
+    <div class="max-length gutter pad-t-2">
       <form method="POST" action="https://formspree.io/smit1711@algonquinlive.com">
         <fieldset class="push-0">
-          <legend class="personal mega push italic">Your Information</legend>
+          <legend class="personal mega push italic">Adopt a Dog</legend>
           <div class="grid">
-            <div class="first-name-div push unit xs-1 s-1 m-1 l-1-2 pad-r">
+            <div class="unit push xs-1 s-1 m-1 l-1">
+              <div class="push unit xs-1 s-1 m-1 l-1">
+                <label for="subject">Which Dog do you want to Adopt?</label>
+                <select id="subject" name="_subject">
+                  <option>Lana</option>
+                  <option>Duke</option>
+                  <option>Teddy</option>
+                  <option>Cher</option>
+                  <option>Jowa</option>
+                  <option>Sam</option>
+                </select>
+              </div>
+            </div>
+            <div class="first-name-div push unit xs-1 s-1 m-1 l-1-2">
               <label for="name">First Name</label>
               <input id="name" name="first-name" required>
             </div>
-            <div class="last-name-div push unit xs-1 s-1 m-1 l-1-2 pad-l">
+            <div class="last-name-div push unit xs-1 s-1 m-1 l-1-2">
               <label for="name">Last Name</label>
               <input id="name" name="last-name" required>
             </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <div class="unit push xs-1 s-1 m-1-2 l-1-2">
               <label for="address">Street Address</label>
               <input id="address" name="address" required></input>
             </div>
@@ -109,20 +121,7 @@
                 <option>Evening</option>
               </select>
             </div>
-            <div class="unit push xs-1 s-1 m-1 l-1">
-              <div class="push unit xs-1 s-1 m-1 l-1">
-                <label for="subject">Which Dog do you want to Adopt?</label>
-                <select id="subject" name="_subject">
-                  <option>Lana</option>
-                  <option>Duke</option>
-                  <option>Teddy</option>
-                  <option>Cher</option>
-                  <option>Jowa</option>
-                  <option>Sam</option>
-                </select>
-              </div>
-            </div>
-            <div class="unit xs-1 s-1-2 m-1 l-1 pad-t-2 pad-b gutter-1-4 center-content-horizontal">
+            <div class="unit xs-1 s-1-2 m-1 l-1 pad-t pad-b-2 gutter-1-4 center-content-horizontal">
               <button class="btn btn-banner bold" type="submit">Submit</button>
             </div>
             <input type="hidden" name="_subject" value="Adoption Submission">
@@ -131,3 +130,23 @@
       </form>
     </div>
   </section>
+
+  <footer class="island">
+    <div class="grid inside">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2">
+        <small>©Freedom Dog Rescue</small>
+      </div>
+      <div class="nav unit xs-1 s-1 m-1-2 l-1-2">
+        <ul class="list-group-inline mega push-0">
+          <li class="gutter-1-4 kilo"><a class="btn-line" href="index.html"><span>Home</span></a></li>
+          <li class="gutter-1-4 kilo"><a class="btn-line" href="rescues.html"><span>Rescues</span></a></li>
+          <li class="gutter-1-4 kilo"><a class="btn-line" href="adopt.html"><span>Adopt</span></a></li>
+          <li class="gutter-1-4 kilo"><a class="btn-line" href="#"><span>Contact</span></a></li>
+          <li class="gutter-1-4 kilo"><a class="btn-line" href="#"><span>About Us</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</bod>
+</html>
