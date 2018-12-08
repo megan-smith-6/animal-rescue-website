@@ -62,7 +62,7 @@ html {
 }
 
 .bg-text-colour:hover {
-  background: linear-gradient(to bottom, rgba(62, 49, 141, 1), rgba(62, 49, 141, .8));
+  background: linear-gradient(to bottom, rgba(62, 49, 141, .8), rgba(62, 49, 141, 1));
   transition: all 900ms ease-in-out;
 }
 
@@ -89,7 +89,7 @@ html {
 
 .dog-card img:hover {
   filter: brightness(100%);
-  transition: all 900ms ease-in-out;
+  transition: all 600ms ease-in-out;
 }
 
 .doggo-hover:hover {
@@ -116,12 +116,12 @@ small {
 }
 
 input, select {
-  border-radius: 10px;
-  border-color: none;
+  border-radius: 5px;
+  border-color: #c7c7c7;
 }
 
 footer a:hover {
-
+  color: #261e57;
 }
 
 @media only screen and (min-width: 23em) {
