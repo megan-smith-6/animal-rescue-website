@@ -5,6 +5,8 @@
   <title>Adopt a Dog</title>
   <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="favicon-196.png">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
@@ -17,142 +19,149 @@
     <li><a href="#nav">Jump to main navigation</a></li>
   </ul>
 
-  <div class="masthead grid grid-middle gutter">
-    <div class="logo push-0 unit xs-1 s-1 m-1 l-1-4">
-      <a href="index.html">
-        <i class="icon i-128 push-r-1-4"><img src="images/logo.svg" alt=""></i>
-      </a>
-    </div>
-    <div class="nav unit xs-1 s-1 m-1 l-3-4 ">
-      <nav>
-        <ul class="list-group-inline mega push-0">
-          <li class="gutter-1-8"><a class="btn" href="index.html"><span>Home</span></a></li>
-          <li class="gutter-1-8"><a class="btn" href="rescues.html"><span>Rescues</span></a></li>
-          <li class="gutter-1-8"><a id="current" class="btn" href="adopt.html"><span>Adopt</span></a></li>
-          <li class="gutter-1-8"><a class="btn" href="#"><span>Contact</span></a></li>
-          <li class="gutter-1-8"><a class="btn" href="#"><span>About Us</span></a></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-
-  <section class="dog-text pad-t-2 pad-b">
-    <div class="max-length grid pad-t-2 pad-b-2 gutter">
-      <div class="unit">
-        <h1>Before you Fill out the Application</h1>
-        <p>To be considered for one of the animals in the FDR program, you must complete the following adoption application. Understand that the needs of the animal come first - and as such we will be checking references and may include a potential home visit as part of the adoption process. Our primary goal is to match up animals with living situations that are best suited for their longterm care. We appreciate your interest in our organization.</p>
+  <header role="banner">
+    <div class="masthead grid grid-middle gutter-1-2">
+      <div class="logo push-0 unit xs-1 s-1 m-1 l-1-4">
+        <a href="index.html">
+          <i class="icon i-128 push-r-1-4"><img src="images/logo.svg" alt="Freedom Dog Rescue logo"></i>
+        </a>
+      </div>
+      <div class="nav unit xs-1 s-1 m-1 l-3-4 ">
+        <nav id="nav" tabindex="0" role="navigation">
+          <ul class="list-group-inline mega push-0">
+            <li class="gutter-1-8"><a class="btn" href="index.html"><span>Home</span></a></li>
+            <li class="gutter-1-8"><a class="btn" href="rescues.html"><span>Rescues</span></a></li>
+            <li class="gutter-1-8"><a id="current" class="btn" href="adopt.html"><span>Adopt</span></a></li>
+            <li class="gutter-1-8"><a class="btn" href="#"><span>Contact</span></a></li>
+            <li class="gutter-1-8"><a class="btn" href="#"><span>About Us</span></a></li>
+          </ul>
+        </nav>
       </div>
     </div>
-  </section>
+  </header>
 
-  <div class="pad-b">
-    <hr>
-  </div>
+  <main id="main" tabindex="0" role="main">
 
-  <section class="adoptable-dogs pad-t-2">
-    <div class="max-length gutter pad-t-2">
-      <form method="POST" action="https://formspree.io/smit1711@algonquinlive.com">
-        <fieldset class="push-0">
-          <legend class="personal mega push italic">Adopt a Dog</legend>
-          <div class="grid">
-            <div class="unit xs-1 s-1 m-1 l-1">
-              <div class="push unit xs-1 s-1 m-1 l-1">
-                <label class="push-1-8" for="subject">Which Dog do you want to Adopt?</label>
-                <select id="subject" name="_subject">
-                  <option>Lana</option>
-                  <option>Duke</option>
-                  <option>Teddy</option>
-                  <option>Cher</option>
-                  <option>Jowa</option>
-                  <option>Sam</option>
+    <section class="dog-text pad-t-2 pad-b">
+      <div class="max-length grid pad-t-2 pad-b-2 gutter">
+        <div class="unit">
+          <h1>Before you Fill out the Application</h1>
+          <p>To be considered for one of the animals in the FDR program, you must complete the following adoption application. Understand that the needs of the animal come first - and as such we will be checking references and may include a potential home visit as part of the adoption process. Our primary goal is to match up animals with living situations that are best suited for their longterm care. We appreciate your interest in our organization.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="pad-b">
+      <hr>
+    </div>
+
+    <section class="adoptable-dogs pad-t-2">
+      <div class="max-length gutter pad-t-2">
+        <form method="POST" action="https://formspree.io/smit1711@algonquinlive.com">
+          <fieldset class="push-0">
+            <legend class="personal mega push italic">Adopt a Dog</legend>
+            <div class="grid">
+              <div class="unit xs-1 s-1 m-1 l-1">
+                <div class="push unit xs-1 s-1 m-1 l-1">
+                  <label class="push-1-8" for="subject">Which Dog do you want to Adopt?</label>
+                  <select id="subject" name="_subject">
+                    <option value="">Select the dog you want to adopt</option>
+                    <option>Lana</option>
+                    <option>Duke</option>
+                    <option>Teddy</option>
+                    <option>Cher</option>
+                    <option>Jowa</option>
+                    <option>Sam</option>
+                  </select>
+                </div>
+              </div>
+              <div class="first-name-div push unit xs-1 s-1 m-1-2 l-1-2">
+                <label class="push-1-8" for="name">First Name</label>
+                <input id="name" name="first-name" type="text" required>
+              </div>
+              <div class="last-name-div push unit xs-1 s-1 m-1-2 l-1-2">
+                <label for="last-name">Last Name</label>
+                <input id="last-name" name="last-name" type="text" required>
+              </div>
+              <div class="unit push xs-1 s-1 m-1-2 l-1-2">
+                <label class="push-1-8" for="street-address">Street Address</label>
+                <input id="street-address" name="street-address" type="text" required>
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <label class="push-1-8" for="city">City</label>
+                <input id="city" name="city" type="text" required>
+              </div>
+              <div class="unit pad-t xs-1 s-1 m-1-2 l-1-2">
+                <label class="push-1-8" for="province">Province</label>
+                <select id="province" name="province" required>
+                  <option value="">Select your province</option>
+                  <option>Ontario</option>
+                  <option>British Columbia</option>
+                  <option>Alberta</option>
+                  <option>Saskatchewan</option>
+                  <option>Manitoba</option>
+                  <option>Quebec</option>
+                  <option>New Brunswick</option>
+                  <option>Nova Scotia</option>
+                  <option>Prince Edward Island</option>
+                  <option>Newfoundland and Labrador</option>
+                  <option>Yukon</option>
+                  <option>Northwest Territories</option>
+                  <option>Nunavut</option>
                 </select>
               </div>
+              <div class="pad-t push unit xs-1 s-1 m-1-2 l-1-2">
+                <label class="push-1-8" for="postal-code">Postal Code</label>
+                <input id="postal-code" type="text" name="postal-code">
+              </div>
+              <div class="email-div push unit xs-1 s-1 m-1-2 l-1-2">
+                <label class="push-1-8" for="email">Email</label>
+                <input id="email" type="email" name="email">
+              </div>
+              <div class="push unit xs-1 s-1 m-1-2 l-1-2">
+                <label class="push-1-8" for="phone-number">Phone #</label>
+                <input id="phone-number" type="number" name="phone-number">
+              </div>
+              <div class="push unit xs-1 s-1 m-1-2 l-1-2">
+                <label class="push-1-8" for="alt-phone-number">Alternate Phone #</label>
+                <input id="alt-phone-number" type="number" name="alt-phone-number">
+              </div>
+              <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                <label class="push-1-8" for="time-to-call">Best time to call</label>
+                <select id="time-to-call" name="time-to-call">
+                  <option value="">Best time to reach you</option>
+                  <option>Morning</option>
+                  <option>Midday</option>
+                  <option>Evening</option>
+                </select>
+              </div>
+              <div class="unit xs-1 s-1-2 m-1 l-1 pad-t pad-b-2 gutter-1-4 center-content-horizontal">
+                <button class="btn btn-banner bold" type="submit">Submit</button>
+                <input type="hidden" name="_subject" value="Adoption Submission">
+              </div>
             </div>
-            <div class="first-name-div push unit xs-1 s-1 m-1-2 l-1-2">
-              <label class="push-1-8" for="name">First Name</label>
-              <input id="name" name="first-name" type="text" required>
-            </div>
-            <div class="last-name-div push unit xs-1 s-1 m-1-2 l-1-2">
-              <label for="last-namename">Last Name</label>
-              <input id="last-name" name="last-name" type="text" required>
-            </div>
-            <div class="unit push xs-1 s-1 m-1-2 l-1-2">
-              <label class="push-1-8" for="street-address">Street Address</label>
-              <input id="street-address" name="street-address" type="text" required>
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <label class="push-1-8" for="city">City</label>
-              <input id="city" name="city" type="text" required>
-            </div>
-            <div class="unit pad-t xs-1 s-1 m-1-2 l-1-2">
-              <label class="push-1-8" for="province">Province</label>
-              <select id="province" name="province" required>
-                <option>Provinces</option>
-                <option>Ontario</option>
-                <option>British Columbia</option>
-                <option>Alberta</option>
-                <option>Saskatchewan</option>
-                <option>Manitoba</option>
-                <option>Quebec</option>
-                <option>New Brunswick</option>
-                <option>Nova Scotia</option>
-                <option>Prince Edward Island</option>
-                <option>Newfoundland and Labrador</option>
-                <option>Yukon</option>
-                <option>Northwest Territories</option>
-                <option>Nunavut</option>
-              </select>
-            </div>
-            <div class="pad-t push unit xs-1 s-1 m-1-2 l-1-2">
-              <label class="push-1-8" for="postal-code">Postal Code</label>
-              <input id="postal-code" type="text" name="postal-code">
-            </div>
-            <div class="email-div push unit xs-1 s-1 m-1-2 l-1-2">
-              <label class="push-1-8" for="email">Email</label>
-              <input id="email" type="email" name="email">
-            </div>
-            <div class="push unit xs-1 s-1 m-1-2 l-1-2">
-              <label class="push-1-8" for="phone-number">Phone #</label>
-              <input id="phone-number" type="number" name="phone-number">
-            </div>
-            <div class="push unit xs-1 s-1 m-1-2 l-1-2">
-              <label class="push-1-8" for="alt-phone-number">Alternate Phone #</label>
-              <input id="alt-phone-number" type="number" name="alt-phone-number">
-            </div>
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <label class="push-1-8" for="time-to-call">Best time to call</label>
-              <select id="time-to-call" name="time-to-call">
-                <option>Morning</option>
-                <option>Midday</option>
-                <option>Evening</option>
-              </select>
-            </div>
-            <div class="unit xs-1 s-1-2 m-1 l-1 pad-t pad-b-2 gutter-1-4 center-content-horizontal">
-              <button class="btn btn-banner bold" type="submit">Submit</button>
-            </div>
-            <input type="hidden" name="_subject" value="Adoption Submission">
-          </div>
-        </fieldset>
-      </form>
-    </div>
-  </section>
+          </fieldset>
+        </form>
+      </div>
+    </section>
 
-  <footer id="footer" tabindex="0" role="contentinfo">
-    <div class="grid inside">
-      <div class="unit xs-1 s-1 m-1 l-1">
-        <small class="pad-t micro pad-b-1-2 center-content-horizontal">©Freedom Dog Rescue</small>
+    <footer class=id="footer" tabindex="0" role="contentinfo">
+      <div class="grid inside">
+        <div class="unit xs-1 s-1 m-1 l-1">
+          <small class="pad-t micro pad-b-1-2 center-content-horizontal">©Freedom Dog Rescue</small>
+        </div>
+        <div class="nav unit xs-1 s-1 m-1 l-1">
+          <ul class="list-group-inline mega push-0 center-content-horizontal">
+            <li class="gutter-1-4 kilo"><a class="btn-line" href="index.html"><span>Home</span></a></li>
+            <li class="gutter-1-4 kilo"><a class="btn-line" href="rescues.html"><span>Rescues</span></a></li>
+            <li class="gutter-1-4 kilo"><a class="btn-line" href="adopt.html"><span>Adopt</span></a></li>
+            <li class="gutter-1-4 kilo"><a class="btn-line" href="#"><span>Contact</span></a></li>
+            <li class="gutter-1-4 kilo"><a class="btn-line" href="#"><span>About Us</span></a></li>
+          </ul>
+        </div>
       </div>
-      <div class="nav unit xs-1 s-1 m-1 l-1">
-        <ul class="list-group-inline mega push-0 center-content-horizontal">
-          <li class="gutter-1-4 kilo"><a class="btn-line" href="index.html"><span>Home</span></a></li>
-          <li class="gutter-1-4 kilo"><a class="btn-line" href="rescues.html"><span>Rescues</span></a></li>
-          <li class="gutter-1-4 kilo"><a class="btn-line" href="adopt.html"><span>Adopt</span></a></li>
-          <li class="gutter-1-4 kilo"><a class="btn-line" href="#"><span>Contact</span></a></li>
-          <li class="gutter-1-4 kilo"><a class="btn-line" href="#"><span>About Us</span></a></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
+    </footer>
+  </main>
 
 </body>
 </html>
