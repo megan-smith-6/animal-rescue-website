@@ -124,7 +124,7 @@ footer a:hover {
   color: #261e57;
 }
 
-@media only screen and (min-width: 23em) {
+@media only screen and (min-width: 20em) {
 
   .nav {
     padding: .5em;
