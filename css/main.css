@@ -29,6 +29,14 @@ html {
   border: none;
 }
 
+.btn:hover {
+  background-color: #261e57;
+}
+
+#current {
+  background-color: #3a318d;
+}
+
 .h2-break {
   max-width: 10em;
 }
@@ -41,15 +49,6 @@ html {
   overflow: hidden;
   background-position: center;
   filter: drop-shadow(6px 6px 12px rgba(106, 142, 102, .5));
-}
-
-.btn:hover,
-.btn:focus {
-  background-color: #261e57;
-}
-
-#current {
-  background-color: #3a318d;
 }
 
 .bg-text-colour {
