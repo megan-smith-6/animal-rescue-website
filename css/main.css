@@ -27,6 +27,7 @@ html {
 .btn:hover {
   background-color: #dad5ff;
   color: #000;
+  box-shadow: 0 0 3px rgba(62, 49, 141, .4);
 }
 
 #current {
@@ -36,6 +37,7 @@ html {
 #current:hover {
   background-color: #dad5ff;
   color: #000;
+  box-shadow: 0 0 3px rgba(62, 49, 141, .4);
 }
 
 .h2-break {
@@ -78,6 +80,24 @@ html {
   color: #6a5eb9;
 }
 
+.btn-form {
+  color: #fff;
+  background-color: #6a5eb9;
+  border: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn-form:hover {
+  color: #3e318d;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 0 3px rgba(62, 49, 141, .4);
+}
+
 .adoptable-dogs {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(218, 213, 255, 1));
 }
@@ -115,12 +135,10 @@ small {
 }
 
 .btn-footer:hover {
-  border: 2px solid #3e318d;
-  border-top: none;
-  border-left: none;
-  border-right: none;
+  border-radius: 4px;
   color: #000;
   background-color: #fff;
+  box-shadow: 0 0 3px rgba(62, 49, 141, .4);
 }
 
 input, select {
